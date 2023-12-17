@@ -39,7 +39,7 @@ let l = WritingMessage("Aryan Lakhanpal !!!");
 
 function SpreadOpt(a,b,...c) // ... <-- hamesha last me aaega !!!
 {
-   if(a===b)
+  
     return a+b+c;
 }
 
@@ -71,7 +71,7 @@ function aboutObjs(any =
 
 let n = aboutObjs(obj)
 
-console.log(n);
+// console.log(n);
 
 //-------------------------------------------------------------------------------------------------------------------------------- 
 
