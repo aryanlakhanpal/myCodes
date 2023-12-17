@@ -12,16 +12,13 @@
 
      document.querySelector("lol").Style.color ="red"
 
-
 * 4 -> Event Listener
     
     document.querySelector("lol").addEventListener("click",function(){  console.log("we")    })
 
 */
 
-
 // Example 
-
 
 var a = document.querySelector("#wow") // Selecting Element
 a.innerHTML="kar diya change"  // Changing HTML
