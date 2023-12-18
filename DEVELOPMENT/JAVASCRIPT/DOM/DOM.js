@@ -1,20 +1,28 @@
-/* Four Pillers of DOM
+/* //! Four Pillers of DOM
 
-* 1 -> Selecting Element 
+ 1 -> Selecting Element 
       
-     document.querySelector("Element ka naam / id / class")
+    * document.querySelector("Element ka naam / id / class")
 
-* 2 -> Changing HTML
-
-    document.querySelector("lol").innerHTML = "ho gaya change !!"
-
-* 3 -> Changing style
-
-     document.querySelector("lol").Style.color ="red"
-
-* 4 -> Event Listener
+    * documment.querySelectorAll("Saare elements Select ho jaenge")
     
-    document.querySelector("lol").addEventListener("click",function(){  console.log("we")    })
+    * document.getElementById("Seedha id likho "#" nahi lagana hai")
+    
+    * document.getElementsByClassName("Seedha class likho "." nahi lagana hai")
+     
+
+ 2 -> Changing HTML
+
+    * document.querySelector("lol").innerHTML = "<h1>wow</h1>" //! o/p -> wow 
+    * document.querySelector("lol").textContent = "<h1>wow</h1>" //! o/p -> <h1>wow</h1>
+
+ 3 -> Changing style
+
+    * document.querySelector("lol").Style.color ="red"
+
+ 4 -> Event Listener
+    
+    * document.querySelector("lol").addEventListener("click",function(){  console.log("we")    })
 
 */
 
