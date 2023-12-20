@@ -8,15 +8,27 @@ html,body{
     width: 100%;
     height: 100%;
 }
+body{
+    align-items: center;
+    justify-content: center;
+}
+#room{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
 #bulb{
-    height: 500px;
-    width: 500px;
+    height: 250px;
+    width: 250px;
     margin: 50px;
     border-radius: 50%;
     border: 5px solid #000;
 }
 button{
     height: 50px;
-    width: 500px;
+    width: 50px;
     margin: 50px;
 }

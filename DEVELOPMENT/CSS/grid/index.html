@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ॐ</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container{
+            border: 3px solid black;
+            height: 100%;
+            width: 100%;
+            display: grid;
+            background-color: rgba(101, 9, 115, 0.53);
+            /* grid-template-rows: repeat(3,1fr); */
+            grid-template-columns: repeat(1,1fr);
+        }
+        .blks{
+            background-color: rgb(13, 199, 116);
+            border: 3px solid black;
+            margin: 1%;
+            padding: 1%;
+        }
+    .boxP{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .redC{
+        background-color: rgba(182, 15, 182, 0.521);
+    }
+    @media (min-width:500px){
+        .container{
+            border: 3px solid black;
+            height: 100%;
+            width: 100%;
+            display: grid;
+            background-color: rgba(101, 9, 115, 0.53);
+            grid-template-rows: repeat(3,1fr);
+            grid-template-columns: repeat(4,1fr);
+        }
+        
+    #b1{
+        grid-row-start: 1;
+        grid-row-end: 4;
+        background-color: brown;
+
+    }
+    #b2{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        background-color: rgb(147, 147, 203);
+
+    }
+    #b6{
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        background-color: blanchedalmond;
+    }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="blks boxP" id="b1"><h1>content 1</h1></div>
+        <div class="blks boxP" id="b2"><h1>content 2</h1></div>
+        <div class="blks boxP redC" id="b3"><h1>content 3</h1></div>
+        <div class="blks boxP" id="b4"><h1>content 4</h1></div>
+        <div class="blks boxP redC" id="b5"><h1>content 5</h1></div>
+        <div class="blks boxP" id="b6"><h1>content 6</h1></div>
+        <div class="blks boxP redC" id="b7"><h1>content 7</h1></div>
+        <div class="blks boxP" id="b8"><h1>content 8</h1></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

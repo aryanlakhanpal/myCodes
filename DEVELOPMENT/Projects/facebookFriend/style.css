@@ -10,6 +10,7 @@ html,body{
 }
 
 body{
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -25,6 +26,7 @@ body{
     height: 75%;
     width: 100%;
     padding: 20px;
+    object-fit: cover;
     border-radius: 20%;
 }
 #card h1{
