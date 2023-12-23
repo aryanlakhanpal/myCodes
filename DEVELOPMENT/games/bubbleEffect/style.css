@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+align-items: center;
+justify-content: center;}
+
+#canvas1 {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid black;
+}
+
+.youtubeLabel {
+  position: absolute;
+}
+.youtubeLabel a{
+  color: navy;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
