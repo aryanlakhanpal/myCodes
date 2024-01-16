@@ -52,8 +52,8 @@ class Particle {
         // this.y = this.radius + Math.random() * (50% - this.radius * 2);
 
          // ! speed
-        this.vx = Math.random() * 1 - 0.5;
-        this.vy = Math.random() * 1 - 0.5;
+        this.vx = Math.random() * 2 - 0.5;
+        this.vy = Math.random() * 2 - 0.5;
         this.pushX = 0;
         this.pushY = 0;
         this.friction = 0.95;
@@ -148,7 +148,7 @@ class Effect {
             y: 0,
             pressed: false,
             //! mouse ka radius
-            radius: 100
+            radius: 210
         }
 
         window.addEventListener('resize', e => {

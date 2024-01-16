@@ -15,8 +15,6 @@ align-items: center;
 justify-content: center;}
 
 #canvas1 {
-    height: 250px;
-    width: 250px;
     position: relative;
     overflow: hidden;
     border: 5px solid black;
@@ -27,12 +25,4 @@ justify-content: center;}
 }
 .youtubeLabel a{
   color: navy;
-}
-#container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-    width: 500px;
-    position: relative;
 }
