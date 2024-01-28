@@ -7,8 +7,7 @@ class main{
         Solutions ans = new Solutions();
 
 //        array Creation
-        int []arr= {0,1,2,3,4};
-//        int brr[]= {5,6,7,8,9,10};
+        int []arr= {0,-3,-4,0,-2,0,-3,-4};
 
 //        Printing Array before operation
         System.out.println("Array before operation ::");
@@ -19,12 +18,15 @@ class main{
         System.out.println("After operation :: ");
 
 
-
-
-
 //        calling function
 
-        
+       int   lrr = ans.maxsum(arr,3);
+
+//       printing after operation
+
+
+            System.out.print(lrr+" ");
+
 
 
     }
